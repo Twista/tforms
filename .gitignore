@@ -1,0 +1,5 @@
+.cache
+assets.egg-info
+*.pyc
+.idea
+venv
