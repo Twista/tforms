@@ -3,7 +3,7 @@ VENV_BIN ?= venv/bin/activate
 # run tests
 tests::
 	. $(VENV_BIN); \
-	py.test tests
+	py.test tests --cov=tforms --cov-report term-missing
 	
 install_dev: install
 	. $(VENV_BIN); \
